@@ -1,0 +1,45 @@
+p {
+  color: black;
+}
+
+header {
+  color: black;
+  /* background-color: rgb(124, 213, 251); */
+  font-family: verdana;
+}
+
+body {
+  background-color: rgb(15, 224, 161);
+}
+
+section {
+  background-color: rgb(15, 224, 161);
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 3fr 3fr
+}
+
+article {
+  background-color: rgb(124, 213, 251);
+  font-family: verdana;
+  font-size: 100%;
+  margin: 7px;
+  padding: 13px;
+}
+
+footer {
+  color: black;
+  background-color: rgb(124, 213, 251);
+  padding: 10px;
+  font-family: verdana;
+  font-size: 100%;
+}
+
+a {
+  color: hsl(260, 100%, 20%);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
